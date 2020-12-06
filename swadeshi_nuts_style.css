@@ -57,7 +57,9 @@ p
     padding-right: 25px;
 }
 .logo img
-{padding-top: 20px;}
+{
+    padding-top: 20px;
+}
 .row
 {
     display: flex;
@@ -139,10 +141,7 @@ p
     font-size: 25px;
    
 }
-/*.small-container
-{
-    background: radial-gradient(gold,#f06d06);
-}*/
+
 .order
 {
     width: 80%;
@@ -289,6 +288,10 @@ footer p:nth-child(4)
         width: 150px;
         
     }
+    .logo
+    {
+        margin: -40px 0 0 -18px;
+    }
 nav ul
     {
         display:inherit;
@@ -307,6 +310,8 @@ nav ul li a
         padding: 2.5px;
         border-radius: 10px;
         color: white;
+        position: relative;
+        z-index:100;
     }
     
     nav ul li a:hover
@@ -314,10 +319,7 @@ nav ul li a
     background:none;
     
 }
-.logo
-    {
-        margin: -40px 0 0 -18px;
-    }
+
 .col-2 img
     {
         margin: -50px 0 0px 0;
